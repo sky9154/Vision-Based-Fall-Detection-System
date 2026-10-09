@@ -1,0 +1,12 @@
+tensorflow==2.8.0
+mediapipe==0.9.2.1
+protobuf==3.11
+numpy
+pandas
+Pillow
+opencv-python
+matplotlib
+scipy
+scikit-learn
+h5py
+pydot

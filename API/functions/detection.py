@@ -123,8 +123,7 @@ async def stream (websocket: WebSocket, camera_id: str, draw: bool):
 
       if pose_landmarks:
         keypoints, average_visibility = await extract_keypoints(pose_landmarks)
-        keypoints = np.array(keypoints)
-        keypoints = np.expand_dims(keypoints, axis=0)
+        keypoints = np.reshape(keypoints, (1, 26, 1))
 
         average_visibility = round(average_visibility * 100, 1)
 
