@@ -85,7 +85,7 @@ After interpolation, the zero-value gaps are filled from neighboring frames:
 
 ## Train the model
 
-Install the dependencies from an isolated Python environment:
+From the repository root, create and activate an isolated Python environment, then install the project dependencies:
 
 ```bash
 pip install -r requirements.txt

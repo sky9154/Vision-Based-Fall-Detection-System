@@ -136,7 +136,7 @@ Training is documented separately because it has its own dependencies and datase
 - [Training overview, preprocessing, and experiment results](Train/README.md)
 - [Numbered training tool reference](Train/tools/README.md)
 
-Install `Train/requirements.txt` in an isolated environment, prepare the dataset, and run the numbered tools from `01` through `10`.
+Install the project dependencies from the repository root in an isolated environment, prepare the dataset, and run the numbered tools from `01` through `10`.
 
 ## ESP32 firmware
 
