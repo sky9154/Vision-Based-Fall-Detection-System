@@ -1,6 +1,6 @@
 # Vision-Based Fall Detection System
 
-![Vision-Based Fall Detection System](Document/images/readme-banner.png)
+![Vision-Based Fall Detection System](Document/images/readme-banner.webp)
 
 An end-to-end research prototype for detecting falls from human pose landmarks. The system classifies each frame as **Safe**, **Warning**, or **Fall**, streams the result to a React dashboard, stores device data in MongoDB, and accepts readings from ESP32 camera and environmental sensor nodes.
 
