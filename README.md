@@ -2,7 +2,7 @@
 
 ![Vision-Based Fall Detection System](Document/images/readme-banner.webp)
 
-An end-to-end research prototype for detecting falls from human pose landmarks. The system classifies each frame as **Safe**, **Warning**, or **Fall**, streams the result to a React dashboard, stores device data in MongoDB, and accepts readings from ESP32 camera and environmental sensor nodes.
+End-to-end research on fall detection using human pose landmarks. The system classifies each frame as **Safe**, **Warning**, or **Fall**, streams the result to a React dashboard, stores device data in MongoDB, and accepts readings from ESP32 camera and environmental sensor nodes.
 
 ![Fall detection demo](Document/images/Demo.gif)
 
@@ -163,7 +163,7 @@ The notification module contains Discord webhook support and a LINE Notify integ
 
 ## Security status
 
-This code is a research prototype, not a production-ready monitoring service. The current implementation stores passwords in plain text, enables unrestricted CORS, runs FastAPI in debug mode, issues JWTs without expiration, and uses unencrypted HTTP and WebSocket connections. Notification credentials are also stored directly in MongoDB.
+This code was developed for research and is not a production-ready monitoring service. It currently stores passwords in plain text, allows unrestricted CORS, runs FastAPI in debug mode, issues JWTs without expiration, and uses unencrypted HTTP and WebSocket connections. Notification credentials are also stored directly in MongoDB.
 
 Do not expose the application to a public network without adding password hashing, scoped CORS, expiring tokens, TLS, secret management, input validation, and deployment-specific access controls.
 
